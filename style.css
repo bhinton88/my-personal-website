@@ -1,4 +1,26 @@
 body {
-    background: blue;
+    background: whitesmoke;
   }
   
+  nav {
+      position: sticky;
+  }
+
+  nav li {
+     display: inline-block; 
+  }
+
+  img#header {
+      height: 500px;
+      width: 700px;
+  }
+
+  #aboutme img {
+      max-height: 300px;
+      max-width: 200px;
+      float: right;
+  }
+
+  section#aboutme {
+      display: inline-block;
+  }
