@@ -1,26 +1,85 @@
 body {
-    background: whitesmoke;
-  }
+    background: ivory;
+    margin-left: 6em;
+    margin-right: 6em; 
+    font-family: 'Playfair Display', serif;
+}
   
-  nav {
+nav {
       position: sticky;
-  }
+      text-align: center;
+}
 
-  nav li {
-     display: inline-block; 
-  }
+nav li {
+     display: inline-flex;
+     flex-wrap: wrap;
+}
 
-  img#header {
-      height: 500px;
-      width: 700px;
-  }
+#headerphoto {
+    height: 500px;
+    background-image: url(images/Norway.jpg);
+    background-size: cover;
+    margin-left: 0;
+    margin-right: 0;
+}
 
-  #aboutme img {
-      max-height: 300px;
-      max-width: 200px;
-      float: right;
-  }
 
-  section#aboutme {
-      display: inline-block;
-  }
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+section#aboutme {
+    display: grid;
+    grid-template: 1fr 3fr / 3fr 1fr;
+    grid-template-areas:    "aboutmeh face"
+                            "aboutmep face";
+    background-color: darkred;
+    margin-bottom: 30px;
+    border-inline: solid 10px black;
+    border-block: solid 10px black;
+    text-align: center;
+}
+
+#aboutme img {
+      max-height: 400px;
+      max-width: 300px;
+      grid-area: face;
+      justify-self: end;
+}
+
+#aboutme h2 {
+     grid-area: aboutmeh;
+}
+
+#aboutme p {
+     grid-area: aboutmep;
+}
+section#projects {
+    display: grid;
+    grid-template: 1fr 3fr / 1fr 3fr;
+    grid-template-areas:     "portfolioimg portfolioh"
+                             "portfolioimg portfoliop";
+    background-color: darkred;
+    border-inline: solid 10px black;
+    border-block: solid 10px black;
+}
+
+#projects img {
+    max-height: 400px;
+    max-width: 300px;
+    grid-area: portfolioimg;
+}
+
+#projects h2 {
+    grid-area: portfolioh;
+}
+
+#projects p {
+    grid-area: portfoliop;
+}
+
+  
+
+ 
