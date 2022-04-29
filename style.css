@@ -51,6 +51,7 @@ section#aboutme {
 
 #aboutme h2 {
      grid-area: aboutmeh;
+     align-self: end;
 }
 
 #aboutme p {
