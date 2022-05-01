@@ -30,6 +30,7 @@ nav li {
 
 nav li:hover {
     background-color: darkred;
+    transition: 0.75s linear;
 }
 
 nav a {
@@ -106,6 +107,28 @@ section#projects {
     grid-area: portfoliop;
 }
 
-  
+#links {
+    text-align: center;
+    padding-block-start: 2rem;
+}
 
+#links a {
+    padding-inline: 2rem;
+    color: black;
+}
+
+#links #fa-github:hover {
+    color: deepskyblue;
+    transition: 0.25s;
+}
+
+#links #fa-linkedin:hover {
+    color:greenyellow ;
+    transition: 0.25s;
+}
+
+#links #fa-email:hover {
+    color: fuchsia;
+    transition: 0.25s;
+}
  
