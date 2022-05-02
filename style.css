@@ -5,6 +5,7 @@ html {
 body {
     background: ivory;
     font-family: 'Playfair Display', serif;
+    margin-inline: 0;
 }
 
 nav {
