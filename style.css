@@ -64,6 +64,7 @@ section#aboutme {
     text-align: center;   
     margin-inline-start: 6em;
     margin-inline-end: 6em;
+    border-radius: 10px;
 }
 
 #aboutme img {
@@ -91,6 +92,7 @@ section#projects {
     border-block: solid 10px black;
     margin-inline-start: 6em;
     margin-inline-end: 6em;
+    border-radius: 10px;
 }
 
 #projects img {
